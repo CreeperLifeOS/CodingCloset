@@ -13,13 +13,6 @@ public class Bicycle{
 	boolean brake;
 	int speed;
 
-// Methods can be declared here as well
-	void Move;
-//	void Rotate;
-//	void Accelerate;
-	boolean Brake;
-//	int Gears;
-
 /*
 Methods that only have () are said not to have any parameters
 If you want to throw some info/data to the methods you must
@@ -49,7 +42,8 @@ Allow Methods to accept parameters
 	public void Move(){
 
 		this.speed = 5;
-		
+		System.out.println("It works");
+
 	}
 
 // Boolean is the return method and when called returns boolean value
