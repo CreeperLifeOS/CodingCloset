@@ -17,22 +17,37 @@ public class Modulo{
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Please enter a number: ");
 
+		int numA;
 		if(scanner.hasNextInt()){
-			int numA = scanner.nextInt();
+			numA = scanner.nextInt();
 			System.out.println("Your number is valid! Number choosen: " + numA);
 		} 
 		else {
 			System.out.println("Invalid Input! Please enter a valid number next time.");
+			return;
+		}
+
+		System.out.print("Now enter a number to divide it with: ");
+		int numB;
+		if(scanner.hasNextInt()){
+			numB = scanner.nextInt();
+			System.out.println("Your number is valid! Number choosen: " + numB);
+		} 
+		else {
+			System.out.println("Invalid Input! Please enter a valid number next time.");
+			return;
 		}
 		scanner.close();
 
-		while(numA < 10){
-			if(numA % 2 == 0){
+		int numC;
+		while(numA < 5000){
+			if(numA % numB == 0){
 				System.out.println("Great, there are 0 remainders left using " + numA + "!");
 				break;
 			}
 			else{
-				System.out.println("There are still remainders using " + numA + ". Lets add it by 1!");
+				numC = numA % numB;
+				System.out.println("There are still " + numC + " remainders using " + numA + ". Lets add it by 1!");
 				numA++;
 			}
 		}
