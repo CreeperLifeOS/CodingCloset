@@ -10,17 +10,27 @@ public class AssignmentWork1{
         value = 1;
 
         if(value == 1){
-	        System.out.println("The value currenlty is: " + value);
+	        System.out.println("The pizza has " + value + " pepperoni, could you add a bit more?");
 
         }
 
         value++;
 
         if(value == 2){
-            System.out.println("The value has changed! It currently is: " + value);
+            System.out.println("The pizza has changed! It currently has " + value + " pepperoni! We're making progress, just add a little more!");
         }
 
-        
+        value--;
+
+        if(value == 1){
+            System.out.println("The pizza has reverted to having " + value + " pepperoni... T-T Back to square one...");
+        }
+
+        value = value + 2728;
+
+        if(value == 2729){
+            System.out.println("WHAT THE ACTUAL PIZZA!? WHY IS THERE " + value + " PEPPERONI ON THE PIZZA!?!?!?");
+        }
 
     }
 }
