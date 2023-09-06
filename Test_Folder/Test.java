@@ -1,19 +1,17 @@
 public class Test{
 
     public static void main(String[] args){
+        System.out.print("Be careful of upper");
+        System.out.println(" And lower case characters.");
+        int x = 3;
+        String testString = "Almost done";
 
-        int [] num = {1,5,8,9,10};
-        
-        System.out.println(num[0]);
-        System.out.println(num[1]);
-        System.out.println(num[2]);
-        System.out.println(num[3]);
-        System.out.println(num[4]);
-        System.out.println(num);
-
-        String[] stringArray = new String[3];
-        System.out.println(stringArray[0]);
-        int[] num3 = new int[2];
-        System.out.println(num3[0]);
+        int y = 5;
+        if(y == 10){
+            System.out.println("y is equal to 10");
+        }
+        else{
+            System.out.println("Is this valid?");
+        }
     }
 }
