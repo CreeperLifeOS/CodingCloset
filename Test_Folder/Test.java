@@ -1,17 +1,45 @@
 public class Test{
 
     public static void main(String[] args){
-        System.out.print("Be careful of upper");
-        System.out.println(" And lower case characters.");
-        int x = 3;
-        String testString = "Almost done";
+        String funny = "pUuYiaoGrveNn";
 
-        int y = 5;
-        if(y == 10){
-            System.out.println("y is equal to 10");
-        }
-        else{
-            System.out.println("Is this valid?");
-        }
+        char heh = funny.charAt(11);
+        System.out.print(heh);
+
+        heh = funny.charAt(10);
+        System.out.print(heh);
+        heh = funny.charAt(9);
+        System.out.print(heh);
+        heh = funny.charAt(10);
+        System.out.print(heh);
+        heh = funny.charAt(8);
+        System.out.println(heh);
+        heh = funny.charAt(7);
+        System.out.print(heh);
+        heh = funny.charAt(6);
+        System.out.print(heh);
+        heh = funny.charAt(12);
+        System.out.print(heh);
+        System.out.print(heh);
+        heh = funny.charAt(5);
+        System.out.println(heh);
+        heh = funny.charAt(7);
+        System.out.print(heh);
+        heh = funny.charAt(4);
+        System.out.print(heh);
+        heh = funny.charAt(9);
+        System.out.print(heh);
+        heh = funny.charAt(10);
+        System.out.println(heh);
+        heh = funny.charAt(3);
+        System.out.print(heh);
+        heh = funny.charAt(6);
+        System.out.print(heh);
+        heh = funny.charAt(2);
+        System.out.println(heh);
+        heh = funny.charAt(1);
+        System.out.print(heh);
+        heh = funny.charAt(0);
+        System.out.println(heh);
     }
 }
